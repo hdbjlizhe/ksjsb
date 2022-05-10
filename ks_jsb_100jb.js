@@ -8,10 +8,12 @@
 =================================Quantumultx=========================
 [task_local]
 #快手极速版-100金币版
-0 30 14-22 * * * https://github.com/JDWXX/jd_all/blob/master/ks/ks_jsb_100jb.js, tag=快手极速版-100金币版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+0 30 14-22 * * * 
+https://github.com/JDWXX/jd_all/blob/master/ks/ks_jsb_100jb.js, tag=快手极速版-100金币版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 =================================Loon===================================
 [Script]
-cron "0 30 14-22 * * * script-path=https://github.com/JDWXX/jd_all/blob/master/ks/ks_jsb_100jb.js,tag=快手极速版-100金币版
+cron "0 30 14-22 * * * 
+script-path=https://github.com/JDWXX/jd_all/blob/master/ks/ks_jsb_100jb.js,tag=快手极速版-100金币版
 ===================================Surge================================
 快手极速版-100金币版 = type=cron,cronexp="0 30 14-22 * * *,wake-system=1,timeout=3600,script-path=https://github.com/JDWXX/jd_all/blob/master/ks/ks_jsb_100jb.js
 ====================================小火箭=============================
